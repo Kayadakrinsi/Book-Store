@@ -1,12 +1,10 @@
 import React from 'react'
+import List from '../Component/List'
 
-function Title(props) {
-    const {title,description}=props;
-  return (
-    <div className="text-center">
-      <h1>{title}</h1>
-        <p>{description}</p>
-    </div>
+function Title({obj,key}){
+  
+  return(
+  <div><h2>I am {obj.title} desc is {obj.discription}</h2></div>
   )
 }
 
@@ -20,7 +18,7 @@ function Title(props) {
 // }
 
 export default Title
-Title.defaultProps={
-    title:"Title",
-    description : "This is a demo description."
-}
+// Title.defaultProps={
+//     title:"Title",
+//     description : "This is a demo description."
+// }
