@@ -17,7 +17,9 @@ function List() {
         title:'T3',
         discription:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est sequi recusandae non asperiores, eveniet repellendus eius quibusdam placeat adipisci doloribus saepe ad'
     }]
-    const objList=objs.map(obj=><Title key={obj.title} obj={obj}/>)
+    // const objList=objs.map(obj=><Title key={obj.title} obj={obj}/>)
+
+    const objList=objs.map(obj=><Title obj={obj}/>)
     return (
         <div>
             {objList}

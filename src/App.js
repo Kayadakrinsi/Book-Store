@@ -2,8 +2,19 @@ import React, { Component } from 'react'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import List from './Component/List';
+import Title from './Component/Title';
+import LoginForm from './Component/LoginForm';
+import FocusInput from './Component/FocusInput';
 
 class App extends Component {
+  render() {
+    return (<>
+      <FocusInput />
+      {/* <List /> */}
+      {/* <LoginForm/> */}
+    </>);
+  }
+
   // constructor(props) {
   //   super(props)
 
@@ -40,11 +51,7 @@ class App extends Component {
   //   }
 
   // }
-  render() {
-    return (<>
-      <List />
-    </>);
-  }
+
 
   // render() {
   //   return (

@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px 2px rgb(239, 2, 61);
+    margin-top: 200px;
+    /* padding: 20px; */
+    height: 300px;
+    width: 500px;
+}
+
+.label,.input{
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 40px;
+}
+
+button{
+    background: rgb(239, 2, 61);
+    color: aliceblue;
+    height: 40px;
+    width: 90px;
+    margin-top: 10px;
+    font-size: bold ;
+    border-radius: 10px;
+}

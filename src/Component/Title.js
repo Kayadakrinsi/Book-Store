@@ -1,8 +1,8 @@
 import React from 'react'
-import List from '../Component/List'
+// import List from '../Component/List'
+import '../Title.css'
 
-function Title({obj,key}){
-  
+function Title({obj}){
   return(
   <div><h2>I am {obj.title} desc is {obj.discription}</h2></div>
   )
@@ -17,7 +17,7 @@ function Title({obj,key}){
 // )
 // }
 
-export default Title
+export default React.memo(Title)
 // Title.defaultProps={
 //     title:"Title",
 //     description : "This is a demo description."
